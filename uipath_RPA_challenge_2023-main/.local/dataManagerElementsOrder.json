@@ -1,0 +1,82 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GetExifGPS.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bmpImage&Sequence_1",
+        "propItems&Sequence_1",
+        "strFilename&Sequence_1",
+        "lat&Sequence_6",
+        "lon&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "picturePath",
+        "dblLat",
+        "dblLon"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Verify.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "qrOrderNumber&Sequence_1",
+        "ocrUnitNumber&Sequence_1",
+        "DeliveryUnitExcel&Sequence_1",
+        "Validity&Sequence_1",
+        "TeleID&Sequence_1",
+        "imageQR&Sequence_1",
+        "orderInfo&Sequence_1",
+        "imageUnit&Sequence_2",
+        "regionCroppingTop&Sequence_2",
+        "height&Sequence_2",
+        "regionCroppingBottom&Sequence_3",
+        "JsonString&Sequence_28",
+        "JsonObject&Sequence_28",
+        "lat_actual&Sequence_27",
+        "lon_actual&Sequence_27",
+        "WithinZone&Sequence_27"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "fileName",
+        "lat",
+        "lon"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GetDoubleFromProps.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dblDegreesNumerator&Sequence_1",
+        "dblDegreesDenominator&Sequence_1",
+        "dblDegrees&Sequence_1",
+        "dblMinutesNumerator&Sequence_1",
+        "dblMinutesDenominator&Sequence_1",
+        "dblMminutes&Sequence_1",
+        "dblSecondsNumerator&Sequence_1",
+        "dblSeconds&Sequence_1",
+        "dblSecondsDenominator&Sequence_1",
+        "strGpsRef&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "propItemRef",
+        "dblCoordinate",
+        "propItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
